@@ -27,4 +27,5 @@ form.addEventListener("submit", function (e) {
 
 btnLimpar.addEventListener('click', function () {
   lista.innerHTML = '';
+  console.log("teste");
 });
